@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profilesFragment"
+        android:icon="@drawable/profile_filled"
+        android:title="Profiles" />
+
+    <item
+        android:id="@+id/skillsFragment"
+        android:icon="@drawable/skills_filled"
+        android:title="Skills" />
+
+    <item
+        android:id="@+id/projectsFragment"
+        android:icon="@drawable/projects_filled"
+        android:title="Projects" />
+
+    <item
+        android:id="@+id/contactsFragment"
+        android:icon="@drawable/contact_filled"
+        android:title="Contacts" />
+</menu>
