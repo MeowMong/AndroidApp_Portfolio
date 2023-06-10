@@ -1,4 +1,4 @@
-package com.drxid.porrto
+package com.drxid.porto
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.drxid.porrto
+package com.drxid.porto
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

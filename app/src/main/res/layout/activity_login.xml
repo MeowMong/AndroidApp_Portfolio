@@ -46,19 +46,6 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/et_nama"
-            android:layout_width="fill_parent"
-            android:layout_height="56dp"
-            android:background="@drawable/style_et"
-            android:textColor="@color/Accent_Wuito"
-            android:textColorHint="@color/Accent_Grege"
-            android:textSize="14sp"
-            android:fontFamily="@font/poppins_medium"
-            android:padding="16dp"
-            android:hint="Masukkan Nama"
-            android:inputType="text" />
-
-        <EditText
             android:id="@+id/et_email"
             android:layout_width="fill_parent"
             android:layout_height="56dp"
@@ -85,6 +72,22 @@
             android:padding="16dp"
             android:hint="Masukkan Password"
             android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_lupapass"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="16dp"
+            android:text="Lupa Password ?"
+            android:textColor="@color/Accent_Wuito"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_medium"
+            android:background="#00FFFFFF"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="true"/>
     </LinearLayout>
 
     <!--  Button: Daftar  -->
@@ -97,23 +100,20 @@
         android:layout_centerHorizontal="true"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_regular"
-            android:text="@string/kebijakan"
-            android:textColor="@color/Accent_Wuito"/>
-
         <Button
             android:id="@+id/btn_register"
             android:layout_width="fill_parent"
             android:layout_height="52dp"
             android:layout_gravity="center"
-            android:text="Daftar"
+            android:text="Masuk"
+            android:textSize="16dp"
+            android:fontFamily="@font/poppins_medium"
             android:textAllCaps="false"
             android:background="@drawable/style_btn"
             android:layout_marginTop="16dp"
-            />
+            android:clickable="true"
+            android:enabled="true"
+            android:focusable="true" />
 
         <Button
             android:id="@+id/btn_registertologin"
@@ -125,6 +125,8 @@
             android:textAllCaps="false"
             android:background="#00FFFFFF"
             android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:enabled="true"
             />
     </LinearLayout>
 
