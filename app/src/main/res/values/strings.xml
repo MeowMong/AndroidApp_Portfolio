@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DocXID</string>
+
+    <string name="my_text"><u>Lupa Password ?</u>.</string>
+
+    <string name="masuk_sekarang">Sudah memiliki akun ? <b>Masuk Sekarang</b></string>
+    <string name="daftar_sekarang">Belum memiliki akun ? <b>Daftar Sekarang</b></string>
+
+    <string name="kebijakan">Dengan mendaftar, Anda setuju dengan <b>Syarat &amp; Ketentuan</b> dan <b>Kebijakan</b> Kami</string>
+</resources>
