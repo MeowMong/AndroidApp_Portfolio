@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/Sec1_Sekok"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context="com.drxid.porto.MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"

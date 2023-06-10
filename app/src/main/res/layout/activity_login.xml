@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/Pri1_Inke"
-    tools:context="com.drxid.porto.RegisterActivity">
+    tools:context="com.drxid.porto.LoginActivity">
 
     <!--  Title & Subtitle  -->
     <LinearLayout
