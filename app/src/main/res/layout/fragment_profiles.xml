@@ -1,7 +1,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/Pri1_Inke"
     tools:context="com.drxid.porto.menufragment.ProfilesFragment">
 
@@ -11,12 +11,13 @@
         android:orientation="vertical"
         android:layout_margin="16dp">
 
+        <!-- Greeting -->
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="72dp"
             android:orientation="vertical"
-            android:layout_gravity="left">
+            android:layout_gravity="start">
 
             <TextView
                 android:layout_width="match_parent"
@@ -38,47 +39,228 @@
                 android:layout_gravity="center_horizontal"
                 />
         </LinearLayout>
+        <!-- End of Greeting -->
 
+        <!-- Head -->
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:orientation="horizontal"
-            android:layout_gravity="left">
+            android:layout_gravity="start">
 
             <ImageView
                 android:layout_width="140dp"
                 android:layout_height="180dp"
                 android:src="@drawable/img_rasyidphoto"/>
 
+            <!-- LinearLayout/ LinearLayout_Right-->
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
                 android:orientation="vertical"
-                android:layout_gravity="top|left">
+                android:layout_gravity="top|start">
 
-                <TextView
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Main Skills"
-                    android:textColor="@color/Accent_Wuito"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_horizontal"
-                    />
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Main Skills"
+                        android:textColor="@color/Accent_Wuito"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textSize="16sp"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:src="@drawable/chips_uiux"
+                            android:contentDescription="Rasyid Raamdhani" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/chips_figma"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Rasyid Ramadhani"
-                    android:textColor="@color/Accent_Grege"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_horizontal"
-                    />
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Projects"
+                        android:textColor="@color/Accent_Wuito"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textSize="16sp"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3 Success, 1 Ongoing"
+                        android:textColor="@color/Accent_Wuito"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="start">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Latest Project"
+                            android:textColor="@color/Accent_Grege"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textSize="12sp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Drug Sysfo App - Meddy"
+                            android:textColor="@color/Accent_Grege"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textSize="12sp"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
             </LinearLayout>
+
         </LinearLayout>
+        <!-- End of Head -->
+
+        <!-- Bio -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bio"
+                android:textColor="@color/Accent_Wuito"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="I am a Software Engineering student from the second level Telkom Purwokerto Institute Of Technology. Have deep interest of User Interface and User Experience design. I have ability to operating tools design figma, Adobe Photoshop and InkView. Now im 20 years old and i think i have to learn many more about UI/UX and other."
+                android:textColor="@color/Accent_Wuito"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="14sp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="start"
+                android:src="@drawable/con_profile"/>
+
+        </LinearLayout>
+        <!-- End of BIO -->
+
+        <!-- Education -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bio"
+                android:textColor="@color/Accent_Wuito"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:src="@drawable/img_ittp"/>
+
+                <!-- LinearLayout/ LinearLayout_Right-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Institut Teknologi Telkom Purwokerto"
+                        android:textColor="@color/Accent_Wuito"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="S1 Rekayasa Perangkat Lunak, Fakultas Informatika"
+                        android:textColor="@color/Accent_Grege"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="12sp"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        <!-- End of Education -->
 
     </LinearLayout>
 
