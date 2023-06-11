@@ -2,12 +2,349 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Pri1_Inke"
     tools:context="com.drxid.porto.menufragment.ContactsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <!-- About -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:orientation="vertical"
+            android:layout_gravity="start">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Rasyid Ramadhani"
+                android:textColor="@color/Accent_Wuito"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="I am a Software Engineering student from the second level Telkom Purwokerto Institute Of Technology. Have deep interest of User Interface and User Experience design. I have ability to operating tools design figma, Adobe Photoshop and InkView. Now im 20 years old and i think i have to learn many more about UI/UX and other."
+                android:textColor="@color/Accent_Wuito"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+        <!-- End of About -->
+
+        <!-- Find me On -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Find Me On"
+                android:textColor="@color/Accent_Wuito"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ico_location_16_regular"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_gravity="center"
+                    android:text="Bekasi Regency, Babelan"
+                    android:textColor="@color/Accent_Wuito"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="12sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ico_call_16_regular"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_gravity="center"
+                    android:text="+62 813-8703-1695"
+                    android:textColor="@color/Accent_Wuito"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ico_mail_16_regular"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_gravity="center"
+                    android:text="rasyid.dot.id@gmail.com"
+                    android:textColor="@color/Accent_Wuito"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ico_whatsapp_outline"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_gravity="center"
+                    android:text="6281387031695"
+                    android:textColor="@color/Accent_Wuito"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ico_instagram_outline"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_gravity="center"
+                    android:text="dr.xid"
+                    android:textColor="@color/Accent_Wuito"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ico_linkedin_outline"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_gravity="center"
+                    android:text="Rasyid Ramadhani"
+                    android:textColor="@color/Accent_Wuito"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ico_github_filled"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_gravity="center"
+                    android:text="oXeeds"
+                    android:textColor="@color/Accent_Wuito"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!-- End of Find me On -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:textColor="@color/Accent_Wuito"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:src="@drawable/openmoji_flag_indonesia"/>
+
+                <!-- LinearLayout/ LinearLayout_Right-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bahasa Indonesia"
+                        android:textColor="@color/Accent_Wuito"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        /><TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bahasa Indonesia"
+                        android:textColor="@color/Accent_Grege"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="12sp"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:src="@drawable/openmoji_flag_united-states"/>
+
+                <!-- LinearLayout/ LinearLayout_Right-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bahasa Indonesia"
+                        android:textColor="@color/Accent_Wuito"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textSize="14sp"
+                        android:layout_gravity="center_horizontal"
+                        /><TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bahasa Indonesia"
+                    android:textColor="@color/Accent_Grege"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </FrameLayout>
