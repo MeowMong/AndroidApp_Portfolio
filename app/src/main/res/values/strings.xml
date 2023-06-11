@@ -18,4 +18,45 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <!-- Projects -->
+    <string-array name="web_projects_name">
+        <item>Information System Pariwisata Web Based Purwokerto (Tindhak)</item>
+        <item>Website Portal Warung Kelontong Purwokerto (Klontonk)</item>
+        <item>E-Ticketing Book AKAP Bus Website</item>
+    </string-array>
+
+    <string-array name="web_projects_job">
+        <item>Project Manager</item>
+        <item>UI/UX Designer</item>
+        <item>Web Designer &amp; Fullstack Web Developer</item>
+    </string-array>
+
+    <string-array name="web_projects_date">
+        <item>March 2023</item>
+        <item>December 2022 - January 2023 (2 bulan)2</item>
+        <item>January 2022 - March 2022 (3 bulan)</item>
+    </string-array>
+
+    <string-array name="mobile_projects_name">
+        <item>Job Portal Mobile App (Djoba)</item>
+        <item>Property Book Mobile App(Properti Kuy)</item>
+        <item>E-Commerce Mobile App (Coklat)</item>
+        <item>E-Learning Mobile App (Klass.id)</item>
+    </string-array>
+
+    <string-array name="mobile_projects_job">
+        <item>UI/UX Designer</item>
+        <item>UX Designer</item>
+        <item>UI/UX Designer</item>
+        <item>UI/UX Designer</item>
+    </string-array>
+
+    <string-array name="mobile_projects_date">
+        <item>September 2022 - November 2022 (3 month)</item>
+        <item>August 2022</item>
+        <item>July 2022 - August 2022 (2 month)</item>
+        <item>August 2021 - October 2021 (3 month)</item>
+    </string-array>
 </resources>

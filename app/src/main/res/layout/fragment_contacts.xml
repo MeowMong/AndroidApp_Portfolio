@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Pri1_Inke"
-    tools:context="com.drxid.porto.menufragment.ContactsFragment">
+    tools:context=".menufragment.ContactsFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -239,7 +239,7 @@
             <com.google.android.gms.maps.MapView
                 android:id="@+id/mapView"
                 android:layout_width="match_parent"
-                android:layout_height="200dp" />
+                android:layout_height="200dp"/>
 
         </LinearLayout>
 
@@ -282,15 +282,17 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bahasa Indonesia"
+                        android:text="Bahasa - Indonesia"
                         android:textColor="@color/Accent_Wuito"
                         android:fontFamily="@font/poppins_semibold"
                         android:textSize="14sp"
                         android:layout_gravity="center_horizontal"
-                        /><TextView
+                        />
+
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bahasa Indonesia"
+                        android:text="Native"
                         android:textColor="@color/Accent_Grege"
                         android:fontFamily="@font/poppins_regular"
                         android:textSize="12sp"
@@ -311,7 +313,7 @@
                 <ImageView
                     android:layout_width="84dp"
                     android:layout_height="84dp"
-                    android:src="@drawable/openmoji_flag_united-states"/>
+                    android:src="@drawable/openmoji_flag_united_states"/>
 
                 <!-- LinearLayout/ LinearLayout_Right-->
                 <LinearLayout
@@ -324,15 +326,17 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Bahasa Indonesia"
+                        android:text="Language - English (US)"
                         android:textColor="@color/Accent_Wuito"
                         android:fontFamily="@font/poppins_semibold"
                         android:textSize="14sp"
                         android:layout_gravity="center_horizontal"
-                        /><TextView
+                        />
+
+                    <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Bahasa Indonesia"
+                    android:text="Work Professionality"
                     android:textColor="@color/Accent_Grege"
                     android:fontFamily="@font/poppins_regular"
                     android:textSize="12sp"

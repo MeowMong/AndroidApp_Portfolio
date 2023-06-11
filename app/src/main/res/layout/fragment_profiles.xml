@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Pri1_Inke"
-    tools:context="com.drxid.porto.menufragment.ProfilesFragment">
+    tools:context=".menufragment.ProfilesFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
