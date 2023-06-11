@@ -43,9 +43,9 @@ class ContactsFragment : Fragment(), OnMapReadyCallback {
         mMap = googleMap
 
         // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-7.409444951523771, 109.23853813101105)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Saya Disini"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        val BancarKembar = LatLng(-7.409444951523771, 109.23853813101105)
+        mMap.addMarker(MarkerOptions().position(BancarKembar).title("Saya Disini"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(BancarKembar))
     }
 
     override fun onCreateView(
@@ -57,12 +57,34 @@ class ContactsFragment : Fragment(), OnMapReadyCallback {
 
         mapView = view.findViewById(R.id.mapView)
         mapView.onCreate(savedInstanceState)
-        mapView.onResume()
 
-        // Mengatur OnMapReadyCallback
-        mapView.getMapAsync(this)
+        mapView.getMapAsync { googleMap ->
+            val location = LatLng(-7.409444951523771, 109.23853813101105)
+            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 15f))
+            googleMap.addMarker(MarkerOptions().position(location).title("Lokasi Saya"))
+        }
 
         return view
+    }
+
+    override fun onResume() {
+        super.onResume()
+        mapView.onResume()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        mapView.onPause()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        mapView.onDestroy()
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        mapView.onSaveInstanceState(outState)
     }
 
     companion object {

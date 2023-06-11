@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Daftar"
+            android:text="Hallo!"
             android:textAlignment="textStart"
             android:fontFamily="@font/poppins_bold"
             android:textSize="20sp"
@@ -29,7 +29,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Daftar untuk Melanjutkan"
+            android:text="Masuk untuk Melanjutkan"
             android:textAlignment="textStart"
             android:fontFamily="@font/poppins_regular"
             android:textSize="16sp"
@@ -101,7 +101,7 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_register"
+            android:id="@+id/btn_login"
             android:layout_width="fill_parent"
             android:layout_height="52dp"
             android:layout_gravity="center"
@@ -116,11 +116,11 @@
             android:focusable="true" />
 
         <Button
-            android:id="@+id/btn_registertologin"
+            android:id="@+id/btn_logintoregister"
             android:layout_width="fill_parent"
             android:layout_height="52dp"
             android:layout_gravity="center"
-            android:text="@string/masuk_sekarang"
+            android:text="@string/daftar_sekarang"
             android:textColor="@color/Accent_Wuito"
             android:textAllCaps="false"
             android:background="#00FFFFFF"
